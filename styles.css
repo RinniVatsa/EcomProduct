@@ -202,9 +202,10 @@
 
 #add-to-cart-message {
     display: none;
-    color: rgb(127, 235, 172);
-    font-weight: bold;
-    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+    background-color: #E7F8B7;
 }
 
 .description {

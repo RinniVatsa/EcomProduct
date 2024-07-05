@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             document.getElementById('add-to-cart').addEventListener('click', function() {
                         const quantity = quantityInput.value;
-                        const message = `Added to cart: ${productData.title}, ${selectedColor ? `Color: ${selectedColor}` : ''}, ${selectedSize ? `Size: ${selectedSize}` : ''}, Quantity: ${quantity}`;
+                        const message = ` ${productData.title} ${selectedColor ? `Color: ${selectedColor}` : ''} ${selectedSize ? `Size: ${selectedSize}` : ''}, Quantity: ${quantity}`;
       document.getElementById('add-to-cart-message').textContent = message;
       document.getElementById('add-to-cart-message').style.display = 'block';
     });
